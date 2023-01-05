@@ -22,6 +22,7 @@ const App = () => {
         })
       );
       setEditing(false);
+      setText("");
     } else {
       e.preventDefault();
       setFeedbacks([
