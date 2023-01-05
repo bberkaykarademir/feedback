@@ -142,11 +142,17 @@ label {
     width: 400px;
   }
   form {
-    width: 500px;
+    width: 400px;
     overflow-wrap: break-word;
+    padding: 11px;
   }
   ul {
-    margin: 0;
+    margin: 5px;
+  }
+  ul li {
+    margin: 0px;
+    width: 33px;
+    height: 33px;
   }
   .info {
     justify-content: left;
@@ -155,7 +161,10 @@ label {
     margin: 11px;
   }
   .sendinput {
-    width: 300px;
+    width: 200px;
+  }
+  .sendbutton {
+    width: 100px;
   }
 }
 
